@@ -1,0 +1,159 @@
+#header {
+    background-color: rebeccapurple;
+    height: 100px;
+}
+#main {
+    border: solid 2px blue;
+    margin-left: 100px;
+    min-height: 300px;
+    margin-right: 10px;
+
+}
+#sidebar {
+    background: color #0ff;
+    width: 180px;
+    position:relative;
+    top: 10px;
+    min-height: 300px;
+}
+#footer {
+    border: 2px solid grey;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+#hide {
+    display: none;
+    background: rebeccapurple;
+}
+
+#MyDIV:hover + #hide {
+    display: block;
+    color: red;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    right: 50%;
+    background-color:rgb(236, 238, 227);
+    border: 1px solid rgb(168, 60, 60);
+    padding-left: 3px;
+    padding-top: 3px;
+    margin-right: 10px;
+    }
+
+  .down{
+      nav-down: auto;
+  }
+  
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    left:50%;
+    background-color:rgb(236, 238, 227);
+    padding-top: 3px;
+    border: 1px solid rgb(168, 60, 60);
+    margin-left: 0px;
+    padding-left:0px;
+  
+    
+    
+
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  #false{
+    color: powderblue;
+  }
+
+
+  #top{
+     position: absolute;
+     top:0;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    background-color: rgb(207, 241, 241);
+    text-align: center;
+    
+   }
+
+   #bottom{
+    position: absolute;
+    top:30%;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background-color: bisque;
+   text-align:center;
+   color: #ffffff;
+   
+  }
+
+  #p {
+    margin :0;
+    padding: 0;
+  }
+h1{
+  text-align: center;
+  
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+.tags {
+    background-color: red;
+}
+table , th ,td {
+  border: 1px solid black;
+  
+}
+
+#error{
+  color: red;
+}
+#ok a{
+  color: green;
+}
+#ok {
+  color: green;
+}
+.button {
+  background-color:rosybrown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 260px;
+  cursor: pointer;
+}
+#warning{
+  color: orange;
+}
